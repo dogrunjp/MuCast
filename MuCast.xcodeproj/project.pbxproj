@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		860F795A1936E8AF00B96A35 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860F79591936E8AF00B96A35 /* Cocoa.framework */; };
+		860F79641936E8AF00B96A35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 860F79621936E8AF00B96A35 /* InfoPlist.strings */; };
+		860F79661936E8AF00B96A35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 860F79651936E8AF00B96A35 /* main.m */; };
+		860F796A1936E8AF00B96A35 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 860F79681936E8AF00B96A35 /* Credits.rtf */; };
+		860F796D1936E8AF00B96A35 /* MuCastAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 860F796C1936E8AF00B96A35 /* MuCastAppDelegate.m */; };
+		860F79701936E8AF00B96A35 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 860F796E1936E8AF00B96A35 /* MainMenu.xib */; };
+		860F79721936E8AF00B96A35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 860F79711936E8AF00B96A35 /* Images.xcassets */; };
+		860F79791936E8AF00B96A35 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860F79781936E8AF00B96A35 /* XCTest.framework */; };
+		860F797A1936E8AF00B96A35 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860F79591936E8AF00B96A35 /* Cocoa.framework */; };
+		860F79821936E8AF00B96A35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 860F79801936E8AF00B96A35 /* InfoPlist.strings */; };
+		860F79841936E8AF00B96A35 /* MuCastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 860F79831936E8AF00B96A35 /* MuCastTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		860F797B1936E8AF00B96A35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 860F794E1936E8AF00B96A35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 860F79551936E8AF00B96A35;
+			remoteInfo = MuCast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		860F79561936E8AF00B96A35 /* MuCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		860F79591936E8AF00B96A35 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		860F795C1936E8AF00B96A35 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		860F795D1936E8AF00B96A35 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		860F795E1936E8AF00B96A35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		860F79611936E8AF00B96A35 /* MuCast-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MuCast-Info.plist"; sourceTree = "<group>"; };
+		860F79631936E8AF00B96A35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		860F79651936E8AF00B96A35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		860F79671936E8AF00B96A35 /* MuCast-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MuCast-Prefix.pch"; sourceTree = "<group>"; };
+		860F79691936E8AF00B96A35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		860F796B1936E8AF00B96A35 /* MuCastAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MuCastAppDelegate.h; sourceTree = "<group>"; };
+		860F796C1936E8AF00B96A35 /* MuCastAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MuCastAppDelegate.m; sourceTree = "<group>"; };
+		860F796F1936E8AF00B96A35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		860F79711936E8AF00B96A35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		860F79771936E8AF00B96A35 /* MuCastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuCastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		860F79781936E8AF00B96A35 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		860F797F1936E8AF00B96A35 /* MuCastTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MuCastTests-Info.plist"; sourceTree = "<group>"; };
+		860F79811936E8AF00B96A35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		860F79831936E8AF00B96A35 /* MuCastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MuCastTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		860F79531936E8AF00B96A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860F795A1936E8AF00B96A35 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860F79741936E8AF00B96A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860F797A1936E8AF00B96A35 /* Cocoa.framework in Frameworks */,
+				860F79791936E8AF00B96A35 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		860F794D1936E8AF00B96A35 = {
+			isa = PBXGroup;
+			children = (
+				860F795F1936E8AF00B96A35 /* MuCast */,
+				860F797D1936E8AF00B96A35 /* MuCastTests */,
+				860F79581936E8AF00B96A35 /* Frameworks */,
+				860F79571936E8AF00B96A35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		860F79571936E8AF00B96A35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				860F79561936E8AF00B96A35 /* MuCast.app */,
+				860F79771936E8AF00B96A35 /* MuCastTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		860F79581936E8AF00B96A35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				860F79591936E8AF00B96A35 /* Cocoa.framework */,
+				860F79781936E8AF00B96A35 /* XCTest.framework */,
+				860F795B1936E8AF00B96A35 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		860F795B1936E8AF00B96A35 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				860F795C1936E8AF00B96A35 /* AppKit.framework */,
+				860F795D1936E8AF00B96A35 /* CoreData.framework */,
+				860F795E1936E8AF00B96A35 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		860F795F1936E8AF00B96A35 /* MuCast */ = {
+			isa = PBXGroup;
+			children = (
+				860F796B1936E8AF00B96A35 /* MuCastAppDelegate.h */,
+				860F796C1936E8AF00B96A35 /* MuCastAppDelegate.m */,
+				860F796E1936E8AF00B96A35 /* MainMenu.xib */,
+				860F79711936E8AF00B96A35 /* Images.xcassets */,
+				860F79601936E8AF00B96A35 /* Supporting Files */,
+			);
+			path = MuCast;
+			sourceTree = "<group>";
+		};
+		860F79601936E8AF00B96A35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				860F79611936E8AF00B96A35 /* MuCast-Info.plist */,
+				860F79621936E8AF00B96A35 /* InfoPlist.strings */,
+				860F79651936E8AF00B96A35 /* main.m */,
+				860F79671936E8AF00B96A35 /* MuCast-Prefix.pch */,
+				860F79681936E8AF00B96A35 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		860F797D1936E8AF00B96A35 /* MuCastTests */ = {
+			isa = PBXGroup;
+			children = (
+				860F79831936E8AF00B96A35 /* MuCastTests.m */,
+				860F797E1936E8AF00B96A35 /* Supporting Files */,
+			);
+			path = MuCastTests;
+			sourceTree = "<group>";
+		};
+		860F797E1936E8AF00B96A35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				860F797F1936E8AF00B96A35 /* MuCastTests-Info.plist */,
+				860F79801936E8AF00B96A35 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		860F79551936E8AF00B96A35 /* MuCast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860F79871936E8AF00B96A35 /* Build configuration list for PBXNativeTarget "MuCast" */;
+			buildPhases = (
+				860F79521936E8AF00B96A35 /* Sources */,
+				860F79531936E8AF00B96A35 /* Frameworks */,
+				860F79541936E8AF00B96A35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuCast;
+			productName = MuCast;
+			productReference = 860F79561936E8AF00B96A35 /* MuCast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		860F79761936E8AF00B96A35 /* MuCastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860F798A1936E8AF00B96A35 /* Build configuration list for PBXNativeTarget "MuCastTests" */;
+			buildPhases = (
+				860F79731936E8AF00B96A35 /* Sources */,
+				860F79741936E8AF00B96A35 /* Frameworks */,
+				860F79751936E8AF00B96A35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				860F797C1936E8AF00B96A35 /* PBXTargetDependency */,
+			);
+			name = MuCastTests;
+			productName = MuCastTests;
+			productReference = 860F79771936E8AF00B96A35 /* MuCastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		860F794E1936E8AF00B96A35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MuCast;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					860F79761936E8AF00B96A35 = {
+						TestTargetID = 860F79551936E8AF00B96A35;
+					};
+				};
+			};
+			buildConfigurationList = 860F79511936E8AF00B96A35 /* Build configuration list for PBXProject "MuCast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 860F794D1936E8AF00B96A35;
+			productRefGroup = 860F79571936E8AF00B96A35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				860F79551936E8AF00B96A35 /* MuCast */,
+				860F79761936E8AF00B96A35 /* MuCastTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		860F79541936E8AF00B96A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860F79641936E8AF00B96A35 /* InfoPlist.strings in Resources */,
+				860F79721936E8AF00B96A35 /* Images.xcassets in Resources */,
+				860F796A1936E8AF00B96A35 /* Credits.rtf in Resources */,
+				860F79701936E8AF00B96A35 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860F79751936E8AF00B96A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860F79821936E8AF00B96A35 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		860F79521936E8AF00B96A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860F79661936E8AF00B96A35 /* main.m in Sources */,
+				860F796D1936E8AF00B96A35 /* MuCastAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860F79731936E8AF00B96A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860F79841936E8AF00B96A35 /* MuCastTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		860F797C1936E8AF00B96A35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 860F79551936E8AF00B96A35 /* MuCast */;
+			targetProxy = 860F797B1936E8AF00B96A35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		860F79621936E8AF00B96A35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				860F79631936E8AF00B96A35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		860F79681936E8AF00B96A35 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				860F79691936E8AF00B96A35 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		860F796E1936E8AF00B96A35 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				860F796F1936E8AF00B96A35 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		860F79801936E8AF00B96A35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				860F79811936E8AF00B96A35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		860F79851936E8AF00B96A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		860F79861936E8AF00B96A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		860F79881936E8AF00B96A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MuCast/MuCast-Prefix.pch";
+				INFOPLIST_FILE = "MuCast/MuCast-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		860F79891936E8AF00B96A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MuCast/MuCast-Prefix.pch";
+				INFOPLIST_FILE = "MuCast/MuCast-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		860F798B1936E8AF00B96A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MuCast.app/Contents/MacOS/MuCast";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MuCast/MuCast-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MuCastTests/MuCastTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		860F798C1936E8AF00B96A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MuCast.app/Contents/MacOS/MuCast";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MuCast/MuCast-Prefix.pch";
+				INFOPLIST_FILE = "MuCastTests/MuCastTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		860F79511936E8AF00B96A35 /* Build configuration list for PBXProject "MuCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860F79851936E8AF00B96A35 /* Debug */,
+				860F79861936E8AF00B96A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		860F79871936E8AF00B96A35 /* Build configuration list for PBXNativeTarget "MuCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860F79881936E8AF00B96A35 /* Debug */,
+				860F79891936E8AF00B96A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		860F798A1936E8AF00B96A35 /* Build configuration list for PBXNativeTarget "MuCastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860F798B1936E8AF00B96A35 /* Debug */,
+				860F798C1936E8AF00B96A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 860F794E1936E8AF00B96A35 /* Project object */;
+}
