@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8604466A1939810A005FC9A1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860446691939810A005FC9A1 /* Security.framework */; };
+		8604466C1939815A005FC9A1 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8604466B1939815A005FC9A1 /* Accounts.framework */; };
+		8604466E19398174005FC9A1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8604466D19398174005FC9A1 /* Social.framework */; };
 		860F795A1936E8AF00B96A35 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860F79591936E8AF00B96A35 /* Cocoa.framework */; };
 		860F79641936E8AF00B96A35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 860F79621936E8AF00B96A35 /* InfoPlist.strings */; };
 		860F79661936E8AF00B96A35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 860F79651936E8AF00B96A35 /* main.m */; };
@@ -18,6 +21,9 @@
 		860F797A1936E8AF00B96A35 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860F79591936E8AF00B96A35 /* Cocoa.framework */; };
 		860F79821936E8AF00B96A35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 860F79801936E8AF00B96A35 /* InfoPlist.strings */; };
 		860F79841936E8AF00B96A35 /* MuCastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 860F79831936E8AF00B96A35 /* MuCastTests.m */; };
+		8621107419373D1F006F6110 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8621107319373D1F006F6110 /* AppController.m */; };
+		8628E2EB1940549200D7B9DB /* icon_mucast.png in Resources */ = {isa = PBXBuildFile; fileRef = 8628E2EA1940549200D7B9DB /* icon_mucast.png */; };
+		86357C1D19455740002241D6 /* icon_mucast_18.png in Resources */ = {isa = PBXBuildFile; fileRef = 86357C1C19455740002241D6 /* icon_mucast_18.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8604466719397E62005FC9A1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		860446691939810A005FC9A1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8604466B1939815A005FC9A1 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		8604466D19398174005FC9A1 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		860F79561936E8AF00B96A35 /* MuCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		860F79591936E8AF00B96A35 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		860F795C1936E8AF00B96A35 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -50,6 +60,11 @@
 		860F797F1936E8AF00B96A35 /* MuCastTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MuCastTests-Info.plist"; sourceTree = "<group>"; };
 		860F79811936E8AF00B96A35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		860F79831936E8AF00B96A35 /* MuCastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MuCastTests.m; sourceTree = "<group>"; };
+		8621107219373D1F006F6110 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		8621107319373D1F006F6110 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		8621107B19384F26006F6110 /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
+		8628E2EA1940549200D7B9DB /* icon_mucast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_mucast.png; sourceTree = "<group>"; };
+		86357C1C19455740002241D6 /* icon_mucast_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_mucast_18.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +72,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8604466E19398174005FC9A1 /* Social.framework in Frameworks */,
+				8604466C1939815A005FC9A1 /* Accounts.framework in Frameworks */,
+				8604466A1939810A005FC9A1 /* Security.framework in Frameworks */,
 				860F795A1936E8AF00B96A35 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,6 +94,11 @@
 		860F794D1936E8AF00B96A35 = {
 			isa = PBXGroup;
 			children = (
+				8621107B19384F26006F6110 /* iTunes.h */,
+				8621107219373D1F006F6110 /* AppController.h */,
+				8621107319373D1F006F6110 /* AppController.m */,
+				8628E2EA1940549200D7B9DB /* icon_mucast.png */,
+				86357C1C19455740002241D6 /* icon_mucast_18.png */,
 				860F795F1936E8AF00B96A35 /* MuCast */,
 				860F797D1936E8AF00B96A35 /* MuCastTests */,
 				860F79581936E8AF00B96A35 /* Frameworks */,
@@ -95,6 +118,10 @@
 		860F79581936E8AF00B96A35 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8604466D19398174005FC9A1 /* Social.framework */,
+				8604466B1939815A005FC9A1 /* Accounts.framework */,
+				860446691939810A005FC9A1 /* Security.framework */,
+				8604466719397E62005FC9A1 /* SystemConfiguration.framework */,
 				860F79591936E8AF00B96A35 /* Cocoa.framework */,
 				860F79781936E8AF00B96A35 /* XCTest.framework */,
 				860F795B1936E8AF00B96A35 /* Other Frameworks */,
@@ -231,10 +258,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86357C1D19455740002241D6 /* icon_mucast_18.png in Resources */,
 				860F79641936E8AF00B96A35 /* InfoPlist.strings in Resources */,
 				860F79721936E8AF00B96A35 /* Images.xcassets in Resources */,
 				860F796A1936E8AF00B96A35 /* Credits.rtf in Resources */,
 				860F79701936E8AF00B96A35 /* MainMenu.xib in Resources */,
+				8628E2EB1940549200D7B9DB /* icon_mucast.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				860F79661936E8AF00B96A35 /* main.m in Sources */,
+				8621107419373D1F006F6110 /* AppController.m in Sources */,
 				860F796D1936E8AF00B96A35 /* MuCastAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +497,7 @@
 				860F79891936E8AF00B96A35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		860F798A1936E8AF00B96A35 /* Build configuration list for PBXNativeTarget "MuCastTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +506,7 @@
 				860F798C1936E8AF00B96A35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
