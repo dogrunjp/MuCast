@@ -40,10 +40,12 @@
 - (IBAction)playNext:(id)sender;
 - (IBAction)playLast:(id)sender;
 - (void)press:(id)sender;
+- (IBAction)comment:(id)sender;
 
 
 @property (weak) IBOutlet NSMenu *menuAccount;
 @property ACAccountStore *accountStore;
 @property (weak) IBOutlet NSMenuItem *subMenu;
+@property (weak) IBOutlet NSTextField *textField;
 
 @end

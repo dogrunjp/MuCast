@@ -17,6 +17,13 @@
                         <action selector="nowplayinglog:" target="sY4-il-Ip9" id="UPR-nQ-QDm"/>
                     </connections>
                 </menuItem>
+                <menuItem isSeparatorItem="YES" id="YSb-Sv-efj"/>
+                <menuItem title="Item" id="mG4-L2-GD7">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <outlet property="view" destination="zKk-Qm-zJ0" id="tNb-ny-e0q"/>
+                    </connections>
+                </menuItem>
                 <menuItem isSeparatorItem="YES" id="hxv-WA-nae"/>
                 <menuItem title="再生" id="Rkg-YO-jmF">
                     <modifierMask key="keyEquivalentModifierMask"/>
@@ -61,8 +68,36 @@
                 <outlet property="menuItem1" destination="Rkg-YO-jmF" id="Qp1-z3-Bhm"/>
                 <outlet property="statusMenu" destination="ucs-ra-Mff" id="LQq-Tj-gbN"/>
                 <outlet property="subMenu" destination="euR-h8-5hY" id="XfB-Ie-HAX"/>
+                <outlet property="textField" destination="Auj-3r-bqI" id="eyR-eH-Qdu"/>
             </connections>
         </customObject>
         <customObject id="Xvt-cY-a5h"/>
+        <customView appearanceType="lightContent" id="zKk-Qm-zJ0">
+            <rect key="frame" x="0.0" y="0.0" width="285" height="37"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Auj-3r-bqI">
+                    <rect key="frame" x="15" y="7" width="139" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="left" bezelStyle="round" id="KwP-hW-xr4">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button appearanceType="lightContent" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tof-ak-lZZ">
+                    <rect key="frame" x="162" y="9" width="110" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="inline" title="コメントして投稿" bezelStyle="inline" alignment="center" borderStyle="border" inset="2" id="uFx-9h-wfT">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" size="11" name="AquaKana-Bold"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="comment:" target="sY4-il-Ip9" id="uur-9T-DFm"/>
+                    </connections>
+                </button>
+            </subviews>
+        </customView>
+        <userDefaultsController representsSharedInstance="YES" id="AMM-kG-ijJ"/>
     </objects>
 </document>

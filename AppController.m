@@ -108,6 +108,41 @@
      }];
 }
 
+- (IBAction)comment:(id)sender {
+    //iTunesApp = [SBApplication applicationWithBundleIdentifier:@"com.apple.itunes"];
+    NSString *currentTrackName = [iTunesApp.currentTrack name];
+    NSString *currentTrackArtist = [iTunesApp.currentTrack artist];
+
+    NSLog(@"%@",[_textField stringValue]);
+    NSString *comment = [_textField stringValue];
+    
+    NSString *nowplaying = [NSString stringWithFormat:@"%@ ♪ #nowplaying %@ - %@", comment,currentTrackName, currentTrackArtist];
+
+    
+    [accountStore
+     requestAccessToAccountsWithType:accountType
+     options:nil
+     completion:^(BOOL granted, NSError *error) {
+         if (granted && (iTunesEPlSPlaying == [iTunesApp playerState])) {
+             if (accountArray.count > 0) {
+                 NSURL *url = [NSURL URLWithString:@"https://api.twitter.com/1.1/statuses/update.json"];
+                 NSDictionary *params = [NSDictionary dictionaryWithObject:nowplaying forKey:@"status"];
+
+                 SLRequest *request = [SLRequest requestForServiceType:SLServiceTypeTwitter
+                                                         requestMethod:SLRequestMethodPOST
+                                                                   URL:url
+                                                            parameters:params];
+                 [request setAccount:[accountArray objectAtIndex:m]];
+                 [request performRequestWithHandler:^(NSData *responseData, NSHTTPURLResponse *urlResponse, NSError *error) {
+                     NSLog(@"responseData=%@: %@", [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding], [[accountArray objectAtIndex:m]username]);
+                 }];
+             }
+         }
+   
+     }];
+
+    [_textField setStringValue:@""];
+}
 
 - (IBAction)play:(id)sender {
     [iTunesApp playpause];
@@ -141,6 +176,7 @@
     }
     [sender setState:NSOnState];
 }
+
 
 
 @end
