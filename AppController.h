@@ -11,9 +11,6 @@
 #import <Accounts/Accounts.h>
 #import <Social/Social.h>
 
-#define dgConsumerKey @"P2JAuaJM7cDuCG0V1XZnJ6cED"
-#define dgCounsumerSec @"IQKxTJQFY0vLgJCaRp1EO5Tt7NsGtciOEKBedc5neaglFS6nDN"
-
 
 @interface AppController : NSObject
 {
