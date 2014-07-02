@@ -64,6 +64,8 @@
         </menu>
         <customObject id="sY4-il-Ip9" customClass="AppController">
             <connections>
+                <outlet property="_mucast_menu" destination="ucs-ra-Mff" id="zF9-rV-Pul"/>
+                <outlet property="commentField" destination="Auj-3r-bqI" id="6Jg-up-5zu"/>
                 <outlet property="menuAccount" destination="ucs-ra-Mff" id="VL7-g3-ekp"/>
                 <outlet property="menuItem1" destination="Rkg-YO-jmF" id="Qp1-z3-Bhm"/>
                 <outlet property="statusMenu" destination="ucs-ra-Mff" id="LQq-Tj-gbN"/>

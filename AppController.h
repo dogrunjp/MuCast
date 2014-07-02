@@ -30,6 +30,7 @@
     NSMenuItem *menuItems;
     NSMenu *menuAcc;
     NSInteger m;
+    NSResponder *firstResponder;
 }
 
 - (IBAction)nowplayinglog:(id)sender;
@@ -38,8 +39,10 @@
 - (IBAction)playLast:(id)sender;
 - (void)press:(id)sender;
 - (IBAction)comment:(id)sender;
+- (BOOL)makeFirstResponder:(NSResponder *)responder;
 
-
+@property (weak) IBOutlet NSMenu *mucast_menu;
+@property (strong) IBOutlet NSTextField *commentField;
 @property (weak) IBOutlet NSMenu *menuAccount;
 @property ACAccountStore *accountStore;
 @property (weak) IBOutlet NSMenuItem *subMenu;

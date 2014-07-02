@@ -15,6 +15,8 @@
 @synthesize accountStore;
 
 - (void)awakeFromNib{
+    [_mucast_menu setDelegate:self];
+    
     statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
     
     [statusItem setTitle:@""];
@@ -76,6 +78,21 @@
             }
     }
 }
+
+- (void)menuWillOpen:(NSMenu *)menu{
+    [_commentField setStringValue:@""];
+    NSLog(@"menu open");
+    [_commentField becomeFirstResponder];
+    /*
+    if([[_commentField subviews] count]){
+        [[_commentField window] makeFirstResponder:[[_commentField subviews] objectAtIndex:0]];}
+            else{
+                [[_commentField window] makeFirstResponder:_commentField];
+        }
+   */
+}
+
+
 
 - (IBAction)nowplayinglog:(id)sender {
     //iTunesApp = [SBApplication applicationWithBundleIdentifier:@"com.apple.itunes"];
@@ -177,6 +194,5 @@
     [sender setState:NSOnState];
 }
 
-
-
 @end
+
